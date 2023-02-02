@@ -6,7 +6,6 @@
 2. Анастасия Ручкина - СГН3-43Б
 3. Полина Кравец - СГН3-44Б
 
-- [Беседа в тг](https://t.me/+QhUrWqEOh24zOGRi)
 - [Ссылка на Goggle-диск](https://drive.google.com/drive/folders/10pOnnqeiI2D2zgAsmHOggP_RSEKCuebf?usp=sharing)
 - [Фигма](https://www.figma.com/file/wNrVdvW1SooDtmB9Rxymbr/Politikisto?node-id=0%3A1)
 
