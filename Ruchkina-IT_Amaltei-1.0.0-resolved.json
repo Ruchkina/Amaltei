@@ -1,0 +1,411 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "This is a simple API",
+    "version": "1.0.0",
+    "title": "Simple Inventory API",
+    "contact": {
+      "email": "you@your-company.com"
+    },
+    "license": {
+      "name": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  },
+  "host": "virtserver.swaggerhub.com",
+  "basePath": "/Ruchkina/IT_Amaltei/1.0.0",
+  "tags": [
+    {
+      "name": "admins",
+      "description": "Secured Admin-only calls"
+    },
+    {
+      "name": "developers",
+      "description": "Operations available to regular developers"
+    },
+    {
+      "name": "user",
+      "description": "regular user"
+    }
+  ],
+  "schemes": [
+    "https"
+  ],
+  "paths": {
+    "/party/EdinayRussia": {
+      "get": {
+        "summary": "get Edinay Russia",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Response"
+              }
+            }
+          },
+          "304": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Response"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/party/SR": {
+      "get": {
+        "summary": "get SR",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Response"
+              }
+            }
+          },
+          "304": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Response"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/party/LDPR": {
+      "get": {
+        "summary": "get LDPR",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Response"
+              }
+            }
+          },
+          "304": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Response"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/party/KPRF": {
+      "get": {
+        "summary": "get KPRF",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Response"
+              }
+            }
+          },
+          "304": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Response"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/party/NewPeople": {
+      "get": {
+        "summary": "get NewPeople",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Response"
+              }
+            }
+          },
+          "304": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Response"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/party/NonParlament": {
+      "get": {
+        "summary": "get NonParlament",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Response"
+              }
+            }
+          },
+          "304": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Response"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Response": {
+      "type": "object",
+      "properties": {
+        "women_follower": {
+          "type": "integer",
+          "example": 50
+        },
+        "men_follower": {
+          "type": "integer",
+          "example": 50
+        },
+        "sex": {
+          "type": "string",
+          "example": "man"
+        },
+        "ltw_age_follower": {
+          "type": "integer",
+          "example": 6
+        },
+        "tw-th_age_follower": {
+          "type": "integer",
+          "example": 12
+        },
+        "tho-fort_age_follower": {
+          "type": "integer",
+          "example": 50
+        },
+        "forto-six_age_follower": {
+          "type": "integer",
+          "example": 23
+        },
+        "osix_age_follower": {
+          "type": "integer",
+          "example": 1
+        },
+        "age-range": {
+          "type": "string",
+          "example": "21-30"
+        },
+        "school_follower": {
+          "type": "integer",
+          "example": 21
+        },
+        "university_follower": {
+          "type": "integer",
+          "example": 34
+        },
+        "work_follower": {
+          "type": "integer",
+          "example": 71
+        },
+        "position": {
+          "type": "string",
+          "example": "school"
+        },
+        "family_follower": {
+          "type": "integer",
+          "example": 2
+        },
+        "career_and_money_follower": {
+          "type": "integer",
+          "example": 40
+        },
+        "fame_and_power_follower": {
+          "type": "integer",
+          "example": 20
+        },
+        "science_follower": {
+          "type": "integer",
+          "example": 10
+        },
+        "entertainment_follower": {
+          "type": "integer",
+          "example": 30
+        },
+        "self_development_follower": {
+          "type": "integer",
+          "example": 4
+        },
+        "values": {
+          "type": "string",
+          "example": "family"
+        },
+        "married_follower": {
+          "type": "integer",
+          "example": 13
+        },
+        "not_married_follower": {
+          "type": "integer",
+          "example": 60
+        },
+        "have_friend_follower": {
+          "type": "integer",
+          "example": 2
+        },
+        "civil_merriage_follower": {
+          "type": "integer",
+          "example": 10
+        },
+        "engagement_follower": {
+          "type": "integer",
+          "example": 4
+        },
+        "active_research": {
+          "type": "integer",
+          "example": 31
+        },
+        "marital_tatus": {
+          "type": "string",
+          "example": "married"
+        },
+        "communists_follower": {
+          "type": "integer",
+          "example": 72
+        },
+        "socialists_follower": {
+          "type": "integer",
+          "example": 2
+        },
+        "moderate_follower": {
+          "type": "integer",
+          "example": 4
+        },
+        "liberals_follower": {
+          "type": "integer",
+          "example": 31
+        },
+        "conservatives_follower": {
+          "type": "integer",
+          "example": 12
+        },
+        "indifferents_follower": {
+          "type": "integer",
+          "example": 19
+        },
+        "political_views": {
+          "type": "string",
+          "example": "liberals"
+        },
+        "2_follower": {
+          "type": "integer",
+          "example": 31
+        },
+        "1_follower": {
+          "type": "integer",
+          "example": 31
+        },
+        "49_follower": {
+          "type": "integer",
+          "example": 31
+        },
+        "99_follower": {
+          "type": "integer",
+          "example": 31
+        },
+        "123_follower": {
+          "type": "integer",
+          "example": 31
+        },
+        "95_follower": {
+          "type": "integer",
+          "example": 31
+        },
+        "112_follower": {
+          "type": "integer",
+          "example": 31
+        },
+        "151_follower": {
+          "type": "integer",
+          "example": 31
+        },
+        "158_follower": {
+          "type": "integer",
+          "example": 31
+        },
+        "149_follower": {
+          "type": "integer",
+          "example": 31
+        },
+        "119_follower": {
+          "type": "integer",
+          "example": 31
+        },
+        "60_follower": {
+          "type": "integer",
+          "example": 31
+        },
+        "66_follower": {
+          "type": "integer",
+          "example": 31
+        },
+        "346_follower": {
+          "type": "integer",
+          "example": 31
+        },
+        "169_follower": {
+          "type": "integer",
+          "example": 31
+        },
+        "5098_follower": {
+          "type": "integer",
+          "example": 31
+        },
+        "73_follower": {
+          "type": "integer",
+          "example": 31
+        },
+        "34_follower": {
+          "type": "integer",
+          "example": 31
+        },
+        "town": {
+          "type": "string",
+          "example": "Moscow"
+        }
+      }
+    }
+  }
+}

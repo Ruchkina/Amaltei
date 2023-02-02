@@ -1,0 +1,481 @@
+body {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/*
+Зависимость параметров от размера экрана
+@media screen and (max-width: 1280px) {
+body {
+    margin-left: 0%;
+    margin-right: 0%;
+}
+}
+*/
+
+
+.header {
+  position: relative;
+  text-align: center;
+  height: 33vw;
+  box-shadow: 30px 10px 50px rgb(44, 69, 92);
+  ;
+}
+
+.header .main_image {
+  object-fit: cover;
+  width: 100%;
+  height: 33vw;
+}
+
+.header_short {
+  height: 5.5vw;
+}
+
+.header_short .main_image {
+  height: 7vw;
+}
+
+.header .description h1 {
+  position: absolute;
+  left: 6.67%;
+  top: 20%;
+
+  font-family: 'Crimson Text';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 4.8vw;
+
+  color: #FFFFFF;
+}
+
+.header .description p {
+  position: absolute;
+  /*border-style: solid;
+border-width: thin;*/
+  left: 13.4%;
+  top: 45%;
+  width: 55%;
+  text-align: left;
+
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2vw;
+  line-height: 1.6vw;
+
+  color: #FFFFFF;
+}
+
+.header .title {
+  position: absolute;
+  top: 0.7vw;
+  left: 3vw;
+  font-family: 'Bodoni Moda', serif;
+  font-size: 1.8vw;
+  line-height: 1.6vw;
+
+  color: #FFFFFF;
+}
+
+.header .next {
+  position: absolute;
+  top: 75%;
+  left: 13.4%;
+
+  width: 10vw;
+  height: 4vw;
+
+  font-family: serif;
+  font-weight: thin;
+  font-size: 1.8vw;
+
+  background: rgba(22, 164, 224, 0.46);
+  color: white;
+  border: none;
+}
+
+.header .next span {
+  position: relative;
+  top: 0.7vw;
+}
+
+.header .next:hover {
+  background-color: rgba(51, 153, 255, 0.1);
+}
+
+.header .next:focus {
+  background-color: rgba(51, 153, 255, 0.5);
+}
+
+.header .about {
+  position: absolute;
+  top: 1.2vw;
+  left: 57.5vw;
+
+  width: 10vw;
+  height: 4vw;
+
+  font-family: serif;
+  font-weight: thin;
+  font-size: 1.8vw;
+  text-align: center;
+  text-decoration: none;
+
+  background-color: rgba(161, 136, 136, 0.3);
+  color: white;
+  border: none;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgba(255, 255, 255, 0.4);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .about:hover {
+  background-color: rgba(161, 136, 136, 0.1);
+}
+
+.header .about:focus {
+  background-color: rgba(161, 136, 136, 0.5);
+}
+
+.header .border {
+  position: relative;
+  top: -3.2vw;
+
+  width: 10vw;
+  height: 4vw;
+
+  border-style: solid;
+  border-width: thin;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.header .next_party {
+  top: 81.8vw;
+  left: 55vw;
+  background-color: rgba(51, 153, 255, 0.8);
+}
+
+.header .next_party:hover {
+  background-color: rgba(51, 153, 255, 1);
+}
+
+.header .next_party .border {
+  border-color: rgba(22, 164, 224, 0.2);
+}
+
+/*.header .border:hover {
+border-color: rgba(255, 255, 255, 0);
+}*/
+
+.parties {
+  position: relative;
+  top: 4vw;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.parties a {
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  opacity: 0.7;
+  background-color: rgb(0, 0, 0, 0);
+  margin-top: 5vw;
+}
+
+.parties a:hover {
+  opacity: 1;
+}
+
+.parties img {
+  height: 11vw;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px rgba(12, 40, 65, 0.8);
+}
+
+.parties p {
+  font-size: 1.3vw;
+  font-family: 'Cormorant SC', serif;
+}
+
+.parties_title p {
+  font-family: 'Cormorant SC', serif;
+  font-size: 2vw;
+  margin-top: 8vw;
+  margin-left: 8vw
+}
+
+.parties_title img {
+  position: relative;
+  top: -48.6vw;
+  left: -2.2vw;
+  height: 52.7vw;
+  z-index: -10;
+}
+
+.parties_title {
+  height: 12vw;
+}
+
+.description_parties {
+  background-color: rgba(12, 40, 65, 0.8);
+  display: grid;
+  grid-template-columns: 50% 50%;
+  color: white;
+
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+
+  box-shadow: 30px 10px 50px rgb(44, 69, 92);
+  ;
+}
+
+.description_parties .part {
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.description_parties .caption {
+  font-size: 2vw;
+  font-family: 'Cormorant SC', serif;
+
+}
+
+.description_parties .text {
+  font-family: 'Cormorant', serif;
+  font-weight: 50;
+  font-size: 1.2vw;
+}
+
+.quote {
+  position: relative;
+  top: 0vw;
+}
+
+.q1 {
+  position: relative;
+  top: 7vw;
+  font-family: 'Playfair Display SC', serif;
+  font-size: 2vw;
+  text-align: center;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+.q2 {
+  position: relative;
+  top: 7.5vw;
+  right: 2vw;
+  font-family: 'Playfair Display', serif;
+  font-size: 2vw;
+  text-align: right;
+}
+
+footer {
+  position: relative;
+  top: 13vw;
+  background: rgba(6, 16, 25, 1);
+  color: white;
+  text-align: center;
+  font-size: 1.5vw;
+  font-family: 'Bitter', serif;
+  padding: 0.05vw;
+  box-shadow: 30px 10px 50px rgb(44, 69, 92);
+  ;
+}
+
+.footer_about {
+  top: 30vw;
+}
+
+footer a {
+  color: white;
+}
+
+.faces {
+  position: relative;
+  top: 12vw;
+  display: grid;
+  grid-template-columns: 20vw 50vw;
+  grid-gap: 7vw;
+}
+
+.faces img {
+  height: 13.6vw;
+  position: relative;
+  left: 4vw;
+
+}
+
+.faces p {
+  padding-right: 9vw;
+}
+
+.faces .name {
+  font-family: 'Cormorant SC', serif;
+  font-size: 2.1vw;
+}
+
+.faces .face_about {
+  font-size: 1.6vw;
+  font-family: 'Cormorant', serif;
+}
+
+.work_project {
+  position: relative;
+  top: 4vw;
+  font-size: 1.5vw;
+  font-family: 'Cormorant SC', serif;
+  text-align: center;
+
+}
+
+.description_faces {
+  position: relative;
+  top: 20vw;
+  display: grid;
+  grid-template-columns: 100%;
+  text-align: center;
+}
+
+.description_faces .caption {
+  font-size: 2.5vw;
+}
+
+.description_faces .text {
+  font-size: 2vw;
+  line-height: 2vw;
+}
+
+.quote_about {
+  top: 18vw;
+}
+
+.party_description_1 {
+  padding-top: 13vw;
+  text-align: center;
+}
+
+.party_description_1 img {
+  position: relative;
+  top: 3vw;
+  width: 35vw;
+}
+
+.party_params {
+  text-align: center;
+}
+
+.party_params .param1 {
+  position: absolute;
+  top: 61vw;
+  left: 28vw;
+}
+
+.party_params .param2 {
+  position: absolute;
+  top: 53vw;
+  left: 21vw;
+}
+
+.party_params .param3 {
+  position: absolute;
+  top: 45vw;
+  left: 25vw;
+}
+
+.party_params .param4 {
+  position: absolute;
+  top: 40vw;
+  left: 46vw;
+}
+
+.party_params .param5 {
+  position: absolute;
+  top: 45vw;
+  left: 56vw;
+}
+
+.party_params .param6 {
+  position: absolute;
+  top: 53vw;
+  left: 61vw;
+}
+
+.party_params .param7 {
+  position: absolute;
+  top: 61vw;
+  left: 59vw;
+}
+
+.party_params .title {
+  font-family: 'Cormorant SC', serif;
+  font-size: 1.6vw;
+}
+
+.party_params .description {
+  position: relative;
+  top: -2vw;
+  font-family: 'Cormorant', serif;
+  font-size: 1.4vw;
+}
+
+.party_description_2 {
+  background-color: rgba(12, 40, 65, 0.8);
+  color: white;
+
+  text-align: center;
+
+  height: 35vw;
+
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+
+  box-shadow: 30px 10px 50px rgb(44, 69, 92);
+  ;
+}
+
+.party_description_2 .title {
+  font-family: 'Cormorant SC', serif;
+  font-size: 1.9vw;
+}
+
+.party_description_2 .description {
+  font-family: 'Cormorant', serif;
+  font-size: 1.7vw;
+}
+
+.party_description_2 .arrow {
+  border: none;
+  background: none;
+  position: relative;
+}
+
+.party_description_2 .arrow img {
+  position: relative;
+  width: 4vw;
+}
+
+.party_description_2 .rarrow {
+  top: -24vw;
+  left: 27vw;
+}
+
+.party_description_2 .larrow {
+  top: -24vw;
+  left: -27vw;
+}
+
+div#air {
+  width: 63vw;
+  height: 29vw;
+}

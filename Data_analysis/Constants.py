@@ -1,0 +1,6 @@
+PATH_PORTRAITS_CSV = ".\Results\Portreti.csv"
+PATH_PORTRAITS_EXCEL = ".\Results\Portreti.xlsx"
+PATH_METRICS_CSV = ".\Results\Metrics.csv"
+PATH_METRICS_EXCEL= ".\Results\Metrics.xlsx"
+FOLLOWER = ".\Data\Follower.csv"
+SUBSCRIPTION = ".\Data\Subsciption.csv"
